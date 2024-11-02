@@ -1,0 +1,8 @@
+{
+  "src/application/application.js": {
+    "file": "js/application.js",
+    "name": "frontend/src/application/application.js",
+    "src": "src/application/application.js",
+    "isEntry": true
+  }
+}

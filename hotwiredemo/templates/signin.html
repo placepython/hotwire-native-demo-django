@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1 class="page-title">Sign In</h1>
+
+  <form method="post">
+    {% csrf_token %}
+    <label for="name" class="display --block space --bottom-s">What is your name?</label>
+    <input type="text" name="name" id="name" placeholder="Type your name…" required>
+    <button type="submit">Sign In</button>
+  </form>
+{% endblock content %}
