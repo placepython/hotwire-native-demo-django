@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="turbo-refresh-method" content="morph">
+    <meta name="turbo-refresh-scroll" content="preserve">
+
+    <title>{% block title %}{{ title|default:'Demo' }}{% endblock title %}</title>
+
+    <link rel="stylesheet" href="{% static 'styles/base.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/utilities.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/app.css' %}">
+
+    {% if native_app %}
+      <link rel="stylesheet" href="{% static 'styles/native.css' %}">
+      <link rel="stylesheet" href="{% static 'styles/bridge.css' %}">
+    {% endif %}
+
+    <script type="module" src="{% static 'js/application.js' %}"></script>
+  </head>
+  <body class="{{ page_class|default:'' }}">
+    <main id="content" class="grid pad --bottom-soft">
+      {% block content %}{% endblock content %}
+    </main>
+  </body>
+</html>
