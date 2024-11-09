@@ -133,82 +133,82 @@ body:not(.index) .page-title {
 
 .actions__icon.--navigate {
   -webkit-mask: url("/static/images/navigate.svg") center/100% no-repeat;
-  mask: url("/static/images/navigate.svg") center/100% no-repeat;
+  mask: url("/images/navigate.svg") center/100% no-repeat;
 }
 
 .actions__icon.--slow {
-  -webkit-mask: url("/static/images/slow.svg") center/100% no-repeat;
-  mask: url("/static/images/slow.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/slow.svg") center/100% no-repeat;
+  mask: url("/images/slow.svg") center/100% no-repeat;
 }
 
 .actions__icon.--scroll {
-  -webkit-mask: url("/static/images/scroll.svg") center/100% no-repeat;
-  mask: url("/static/images/scroll.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/scroll.svg") center/100% no-repeat;
+  mask: url("/images/scroll.svg") center/100% no-repeat;
 }
 
 .actions__icon.--error {
-  -webkit-mask: url("/static/images/error.svg") center/100% no-repeat;
-  mask: url("/static/images/error.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/error.svg") center/100% no-repeat;
+  mask: url("/images/error.svg") center/100% no-repeat;
 }
 
 .actions__icon.--error {
-  -webkit-mask: url("/static/images/error.svg") center/100% no-repeat;
-  mask: url("/static/images/error.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/error.svg") center/100% no-repeat;
+  mask: url("/images/error.svg") center/100% no-repeat;
 }
 
 .actions__icon.--protected {
-  -webkit-mask: url("/static/images/protected.svg") center/100% no-repeat;
-  mask: url("/static/images/protected.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/protected.svg") center/100% no-repeat;
+  mask: url("/images/protected.svg") center/100% no-repeat;
 }
 
 .actions__icon.--modal {
-  -webkit-mask: url("/static/images/modal.svg") center/100% no-repeat;
-  mask: url("/static/images/modal.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/modal.svg") center/100% no-repeat;
+  mask: url("/images/modal.svg") center/100% no-repeat;
 }
 
 .actions__icon.--native {
-  -webkit-mask: url("/static/images/native.svg") center/100% no-repeat;
-  mask: url("/static/images/native.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/native.svg") center/100% no-repeat;
+  mask: url("/images/native.svg") center/100% no-repeat;
 }
 
 .actions__icon.--external {
-  -webkit-mask: url("/static/images/external.svg") center/100% no-repeat;
-  mask: url("/static/images/external.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/external.svg") center/100% no-repeat;
+  mask: url("/images/external.svg") center/100% no-repeat;
 }
 
 .actions__icon.--redirect {
-  -webkit-mask: url("/static/images/redirect.svg") center/100% no-repeat;
-  mask: url("/static/images/redirect.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/redirect.svg") center/100% no-repeat;
+  mask: url("/images/redirect.svg") center/100% no-repeat;
 }
 
 .actions__icon.--files {
-  -webkit-mask: url("/static/images/files.svg") center/100% no-repeat;
-  mask: url("/static/images/files.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/files.svg") center/100% no-repeat;
+  mask: url("/images/files.svg") center/100% no-repeat;
 }
 
 .actions__icon.--reference {
-  -webkit-mask: url("/static/images/reference.svg") center/100% no-repeat;
-  mask: url("/static/images/reference.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/reference.svg") center/100% no-repeat;
+  mask: url("/images/reference.svg") center/100% no-repeat;
 }
 
 .actions__icon.--turbo-drive {
-  -webkit-mask: url("/static/images/turbo-drive.svg") center/100% no-repeat;
-  mask: url("/static/images/turbo-drive.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/turbo-drive.svg") center/100% no-repeat;
+  mask: url("/images/turbo-drive.svg") center/100% no-repeat;
 }
 
 .actions__icon.--turbo-frames {
-  -webkit-mask: url("/static/images/turbo-frames.svg") center/100% no-repeat;
-  mask: url("/static/images/turbo-frames.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/turbo-frames.svg") center/100% no-repeat;
+  mask: url("/images/turbo-frames.svg") center/100% no-repeat;
 }
 
 .actions__icon.--turbo-streams {
-  -webkit-mask: url("/static/images/turbo-streams.svg") center/100% no-repeat;
-  mask: url("/static/images/turbo-streams.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/turbo-streams.svg") center/100% no-repeat;
+  mask: url("/images/turbo-streams.svg") center/100% no-repeat;
 }
 
 .actions__icon.--turbo-native {
-  -webkit-mask: url("/static/images/turbo-native.svg") center/100% no-repeat;
-  mask: url("/static/images/turbo-native.svg") center/100% no-repeat;
+  -webkit-mask: url("/images/turbo-native.svg") center/100% no-repeat;
+  mask: url("/images/turbo-native.svg") center/100% no-repeat;
 }
 
 .auth {

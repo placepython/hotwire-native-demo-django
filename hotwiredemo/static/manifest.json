@@ -1,8 +1,8 @@
 {
-  "src/application/application.js": {
-    "file": "js/application.js",
-    "name": "frontend/src/application/application.js",
-    "src": "src/application/application.js",
+  "src/main.js": {
+    "file": "assets/main.js",
+    "name": "main",
+    "src": "src/main.js",
     "isEntry": true
   }
 }
