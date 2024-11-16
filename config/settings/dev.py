@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 from .base import *  # noqa: F403
 from .base import INSTALLED_APPS
 from .base import MIDDLEWARE
-from .base import env
+from .base import env, BASE_DIR
 
 # DEBUG:
 # In development, DEBUG mode is enabled.
@@ -73,6 +73,12 @@ DEBUG_TOOLBAR_CONFIG = {
     ],
     "SHOW_TEMPLATE_CONTEXT": True,
 }
+
+# This setting defines additional locations that the staticfiles app should traverse.
+# https://docs.djangoproject.com/en/5.1/ref/settings/#staticfiles-dirs
+STATICFILES_DIRS = [
+    BASE_DIR / "frontend" / "public", 
+]
 
 # DJANGO-VITE config
 DJANGO_VITE = {
