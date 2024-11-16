@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from .base import *  # noqa: F403
-from .base import env
+from .base import env, BASE_DIR
 
 # GENERAL
 # SECURITY WARNING: The secret key used in production is a sensitive value.
@@ -193,6 +193,13 @@ LOGGING = {
         },
     },
 }
+
+# This setting defines additional locations that the staticfiles app should traverse.
+# https://docs.djangoproject.com/en/5.1/ref/settings/#staticfiles-dirs
+STATICFILES_DIRS = [
+    BASE_DIR / "hotwiredemo" / "static", 
+]
+
 
 # DJANGO-VITE config
 DJANGO_VITE = {
